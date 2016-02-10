@@ -159,8 +159,7 @@ h4 {
 	padding: 30px;
 }
 
-.connect_link_image
-{
+.connect_link_image{
 	margin-top: 10px;
 	width: 67px;
 	height: auto;
@@ -185,3 +184,63 @@ footer {
 	font-size: 12px;
 }
 
+@media screen and (max-width: 980px) {
+	.container_head {
+		width: 750px;
+	}
+	.container {
+		width: 750px;
+	}
+	.main_content {
+		width: 480px;
+	}
+	.sidebar {
+		width: 235px;
+	}
+	#about_me {
+		width: 435px;
+	}
+	#profile_pic {
+		width: 435px;
+	}
+	.connect_link_image {
+		width: 55px;
+	}
+	.projects {
+		width: 420px;
+		height: 330px;
+	}
+	h4 {
+		width: 420px;
+	}
+	#message {
+		height: 14em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container_head {
+		width: 720px;
+	}	
+	.container {
+		width: 720px;
+	}
+	.main_content {
+		width: 720px;
+		margin-bottom: 40px;
+	}
+	.sidebar{
+		width: 720px;
+		float: left;
+	}
+	#profile_pic {
+		
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.container_head {
+		width: 460px;
+	}
+}

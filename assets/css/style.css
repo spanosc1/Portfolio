@@ -220,27 +220,77 @@ footer {
 
 @media screen and (max-width: 768px) {
 	.container_head {
-		width: 720px;
+		width: 620px;
 	}	
 	.container {
-		width: 720px;
+		width: 620px;
 	}
 	.main_content {
-		width: 720px;
+		width: 620px;
 		margin-bottom: 40px;
 	}
 	.sidebar{
-		width: 720px;
+		width: 620px;
 		float: left;
 	}
 	#profile_pic {
-		
+		width: 300px;
 	}
-
+	#about_me {
+		width: 565px;
+	}
+	.connect_link_image {
+		width: 60px;
+	}
+	.projects {
+		width: 260px;
+		height: 220px;
+	}
+	h4 {
+		width: 260px;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	.container_head {
-		width: 460px;
+		width: 620px;
+		padding-bottom: 145px;
+	}
+	#header {
+		width: 620px;
+		text-align: center;
+		position: static;
+	}
+	.container {
+		width: 590px;
+		margin-top: 20px;
+	}
+	.main_content {
+		width: 590px;
+	}
+	.nav {
+		float: none;
+		text-align: center;
+		padding-top: 30px;
+	}
+	.nav li {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	ul {
+		margin-top: 70px;
+	}
+	#profile_pic {
+		width: 545px;
+	}
+	#about_me {
+		width: 545px;
+	}
+	.projects {
+		width: 530px;
+		height: 420px;
+	}
+	h4 {
+		width: 530px;
 	}
 }
